@@ -1,3 +1,12 @@
+var script = document.createElement('script');
+script.onload = function () {
+    // Скрипт был загружен
+};
+
+document.head.appendChild(script);
+// script.src = 'урл к вашему файлу';
+script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js';
+
 $(document).ready(function() {
     $('i').hide();
   })
