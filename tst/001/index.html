@@ -7,6 +7,91 @@
 	<title>Title text here</title>
 </head>
 <body>
-	
+	<header>
+		<h1>Mi personal page</h1>
+	  </header>
+	  <nav>
+		<ul>
+		  <li class="active"><a href="#home">Home</a></li>
+		  <li><a href="#">Bio</a></li>
+		  <li><a href="#">Works</a></li>
+		  <li><a href="#">Skills</a></li>
+		  <li><a href="#">Contact</a></li>
+		</ul>
+	  </nav>
+	  
+	  <css_selector>
+		<ul>      
+		  <li>Change Style
+			<ul class="submenu">
+			  <li>Style_1</li>
+			  <li>Style_2</li>
+			</ul>        
+		  </li>
+		</ul>
+	  </css_selector>
+	  
+	  <main>
+		<content id="home" class="active">
+		  <div id="homeData">
+			Lorem ipsum 1
+		  </div>
+		  <div id="homeSummary">
+			<h1>Sumary</h1>
+			<photo class="image"></photo>
+			<ul>
+			  <li>
+				<span class="label">Property 1</span>
+				<span class="value">Value 1</span>
+			  </li>
+			  <li>
+				<span class="label">Property 2</span>
+				<span class="value">Value 2</span>
+			  </li>
+			  <li>
+				<span class="label">Property 3</span>
+				<span class="value">Value 3</span>
+			  </li>
+			  <li>
+				<span class="label">Property 4</span>
+				<span class="value">Value 4</span>
+			  </li>
+			</ul>
+			<div class="arrow"></div>
+		  </div>      
+		</content>
+		
+		<content id="bio">
+		  Lorem ipsum 2  
+		</content>
+		
+		
+		
+		<content id="works">
+		  <div id="worksFilters">
+			filters
+		  </div>
+		  <div id="worksContent">
+			works
+		  </div>
+		  
+		  <div id="worksView">
+			<div id="worksView_1">
+			  <photo class="image"></photo>
+			  <desc>description</desc>
+			</div>
+		  </div>
+		</content>
+		
+		
+		<content id="skills">
+		  Lorem ipsum 4  
+		</content>
+		<content id="contact">
+		  Lorem ipsum 5  
+		</content>
+	  </main>
+	  
+	  <footer>Footer</footer>
 </body>
 </html>
